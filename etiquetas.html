@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML</title>
+</head>
+<h1>Etiquetas HTML</h1>
+<body>
+
+    <ol>
+
+       <li> <h3>align</h3></li>
+
+        <p>Alinea horizantal la tabla </p>
+    
+       <li> <h3>background</h3></li>
+        <p>Nos permite poner un fondo a la tabla</p>
+    
+        <li> <h3>border</h3></li>
+        <p>defi</p>
+
+        <li><h3>border color</h3></li>
+        <p>
+             color del border
+        </p>
+
+        <li><h3>cellpadding</h3></li>
+        <p>Define el espacio entre los borde de la celda</p>
+
+        <li><h3>Cellspacing</h3></li>
+        <p>Define el espacio entre los bordes</p>
+
+        <li><h3>Heigth</h3></li>
+        <p>Define el alto de la tabla en pixeles o porcentaje</p>
+
+        <li><h3>width</h3></li>
+        <p>Define el ancho de la tabla en pixeles o porcentajes</p>
+
+
+        <table cellspacing="10" cellpadding="10" border="3">
+
+
+            <tr>
+                <td>Celda de la tabla principal </td>
+
+                <td><table align="center" cellspacing="2" cellpading="2" border="3">
+                    <tr>
+                        <td>Tabla anidada c1</td>
+                        <td>tabla anidada c2</td>
+                    </tr>
+                    <tr>
+                        <td>tabla anidada c3</td>
+                        <td>tabla anidada c4</td>
+
+                    </tr>
+
+                </table></td>
+               
+             
+
+            </tr>
+
+
+        </table>
+
+
+
+
+
+    </ol>
+    <h2>Tabla 3</h2>
+    <table align="center" cellspacing = "2" cellpadding = "2" border="1 " bgcolor="dddddd">
+
+        <tr colspan = "4" align="center" bgcolor = "666666">
+            <td colspan="4" align="center">
+                <font color ="white"> Animlaes en peligro de extinción</font>
+
+            </td>
+            
+        </tr>
+        <tr>
+
+            <td align="center">Nombre</td> 
+            <td align="center">Cabezas</td>
+            <td align="center">Prevision 2020</td>
+            <td align="center">Prevision 2030</td>
+
+        </tr>
+        <tr>
+            <td align="center">ballena</td> 
+            <td align="center">6000</td>
+            <td align="center">4000 </td>
+            <td align="center">1000</td>
+
+
+        </tr>
+        <tr>
+            <td align="center">Oso Pardo </td> 
+            <td align="center">50</td>
+            <td colspan="2" rowspan="2" style="background-color: red;"align="center" >0</td>
+            
+
+        </tr>
+
+        <tr> 
+            
+            <td align="center">Lince</td> 
+            <td align="center">10</td>
+            
+            
+        
+        
+        </tr>
+        <tr>
+
+            <td align="center">Tigre</td>
+            <td align="center">300</td>
+            <td colspan="2"align="center">210</td>
+        </tr>
+
+
+    </table>
+
+    <ol>
+
+        <li><h3>Formulario</h3></li>
+
+
+    </ol>
+    <form action="" method="" >
+
+        <label for="nss">NSS</label>
+
+        <input type="number" id="nss" required placeholder="Numero de seguro social "> <br> <br>
+
+        <label for="pedro">Nombre</label>
+
+        <input type="text" id="pedro" required>
+        <label for="">Contraseña</label>
+        <input type="password" required> <br> <br>
+        <label for="">Correo</label>
+        <input type="email"> <br> <br>
+        <label for="">Sexo</label>
+        <input type="radio" name = "sexo"> Masculino
+        <input type="radio" name = "sexo "> Femenino <br><br>
+
+        <label for=""> Nivel de Estudio</label>
+        <input type="checkbox"> Primaria <br>
+        <input type="checkbox"> Secundaria <br>
+        <input type="checkbox"> PreParatoria <br>
+        <input type="checkbox"> universidad <br>
+
+        <label for="">Estado</label>
+        <select name="" id="">
+ <option value="">Quintan Roo</option>
+ <option value="">Yucatan</option>
+ <option value="">Campeche</option>
+
+
+        </select>
+
+        <label for="">Color</label>
+        <input type="color">  <br>
+        
+        <label for="">fecha de nacimiento</label>
+        <input type="date"> <br><br>
+
+        <label for="">Hora</label>
+        <input type="time"><br><br>
+
+
+        <label for="">intervalo : (min 0, max 10)</label>
+        <input type="range" min = "0" max="10" value="0"> <br> <br>
+
+        <label for=""> Numero</label>
+        <input type="number" max="10" min="-10" value="0"><br><br>
+
+        <label for="">Archivo</label>
+        <input type="file">
+
+        <label for="">Limpiar</label>
+        <input type="reset"> <br><br>
+
+        <label for="Comentarios"></label>
+        <textarea name="" id="" cols="30" rows="10">Texto</textarea> <br><br>
+
+        <label for="">enviar</label>
+        <input type="submit">
+        
+    </form>
+    
+</body>
+</html>
